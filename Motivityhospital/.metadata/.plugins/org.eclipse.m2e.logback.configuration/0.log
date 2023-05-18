@@ -1,0 +1,74 @@
+2023-04-20 17:31:09,692 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-20 17:31:39,928 [Worker-4: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-20 17:31:41,212 [Worker-4: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.motivity:Max-Doctor-PatientApp:0.0.1-SNAPSHOT @ D:\Motivityhospital\ml-hospital-api\pom.xml.
+2023-04-20 17:31:45,127 [Worker-4: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ml-hospital-api/src/main/java
+2023-04-20 17:31:45,127 [Worker-4: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ml-hospital-api/src/main/resources
+2023-04-20 17:31:45,142 [Worker-4: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ml-hospital-api/src/main/resources
+2023-04-20 17:31:45,160 [Worker-4: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ml-hospital-api/src/test/java
+2023-04-20 17:31:47,501 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:31:47,501 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:31:47,506 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-20 17:31:47,523 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-20 17:31:47,531 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:31:47,532 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:31:47,532 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-04-20 17:31:58,788 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:31:58,789 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:31:58,797 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-20 17:31:58,805 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-20 17:31:58,812 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:31:58,812 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:31:58,812 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-04-20 17:32:00,440 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:32:00,440 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:32:00,440 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-20 17:32:00,440 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-20 17:32:00,443 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:32:00,443 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:32:00,443 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-04-20 17:32:00,717 [Worker-4: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 20 sec
+2023-04-20 17:32:01,741 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:32:01,741 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:32:01,742 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-20 17:32:01,742 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-20 17:32:01,746 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-20 17:32:01,746 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-20 17:32:01,748 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-04-20 21:01:25,509 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-25 14:49:55,652 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-25 14:51:15,084 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-25 14:51:15,090 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-25 14:51:15,092 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-25 14:51:15,113 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-25 14:51:15,124 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-25 14:51:15,124 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-04-25 14:51:15,124 [Worker-13: Launching ml-hospital-api - MaxDoctorPatientAppApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-04-25 19:04:46,567 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 11:02:56,412 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-27 11:08:58,155 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.11; built: 2022-06-21T21:12:44.640Z; git: d988aa016e0bb2de6fba84c1659049c72eae3e32; jvm 17.0.5+8
+2023-04-27 11:08:58,229 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-04-27 11:08:58,275 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@8bf3311{/help,null,AVAILABLE}
+2023-04-27 11:08:58,324 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@10f9bb4f{HTTP/1.1, (http/1.1)}{127.0.0.1:58297}
+2023-04-27 11:08:58,345 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@decc723{STARTING}[10.0.11,sto=0] @411992ms
+2023-04-27 11:17:19,089 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@decc723{STOPPING}[10.0.11,sto=0]
+2023-04-27 11:17:19,094 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@10f9bb4f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-04-27 11:17:19,111 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@8bf3311{/help,null,STOPPED}
+2023-04-27 11:17:43,184 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-11 11:36:15,026 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-11 11:37:16,065 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.11; built: 2022-06-21T21:12:44.640Z; git: d988aa016e0bb2de6fba84c1659049c72eae3e32; jvm 17.0.5+8
+2023-05-11 11:37:16,103 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-05-11 11:37:16,145 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4e72409{/help,null,AVAILABLE}
+2023-05-11 11:37:16,170 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@11e76266{HTTP/1.1, (http/1.1)}{127.0.0.1:64694}
+2023-05-11 11:37:16,199 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@4969d9b8{STARTING}[10.0.11,sto=0] @137884ms
+2023-05-11 12:35:59,649 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 12:35:59,651 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-05-11 12:35:59,656 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-11 12:35:59,694 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-11 12:35:59,710 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-11 12:35:59,711 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-05-11 12:35:59,711 [Worker-15: Launching TestAdminController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Motivityhospital\ml-hospital-api\src\test\resources
+2023-05-11 13:04:16,195 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@4969d9b8{STOPPING}[10.0.11,sto=0]
+2023-05-11 13:04:16,216 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@11e76266{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-05-11 13:04:16,284 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4e72409{/help,null,STOPPED}
+2023-05-11 22:00:40,971 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-12 17:06:43,611 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

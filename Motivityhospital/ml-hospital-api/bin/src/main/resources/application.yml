@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Welcome!01
+    url: jdbc:mysql://online-hosp-mngmt.mysql.database.azure.com:3306/online-hosp-mngmt
+    username: admin_hosp_mgnmt
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: thwpfmkwoupfvwfx
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: motivityhospital@gmail.com
+    
+
+jwt:
+  secret: screatKey123
+
