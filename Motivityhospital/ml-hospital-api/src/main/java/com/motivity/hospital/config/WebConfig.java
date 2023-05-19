@@ -10,10 +10,12 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.ComponentScan; 
 
 import java.util.Arrays;
 
 @EnableWebMvc
+@ComponentScan("com")
 @Configuration
 public class WebConfig {
     private static final int CORS_FILTER_ORDER = -102;
