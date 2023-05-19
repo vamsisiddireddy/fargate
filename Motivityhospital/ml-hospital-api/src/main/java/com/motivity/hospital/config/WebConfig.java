@@ -17,7 +17,7 @@ import java.util.Arrays;
 @Configuration
 public class WebConfig {
     private static final int CORS_FILTER_ORDER = -102;
-    @Value(${damain.name})
+    @Value("${damain.name}")
     private String domain;
 
     @Bean
