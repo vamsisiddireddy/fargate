@@ -26,8 +26,6 @@ const AdminLogin = () => {
       const response = await axios.post(`${baseURL}adminlogin`, {
         emailId: admin.emailId,
         password: admin.password,
-      },{
-       withCredentials:"true"
       })
 
       if (
