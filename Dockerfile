@@ -1,10 +1,11 @@
 FROM ubuntu
 MAINTAINER vamsi
 RUN apt-get update
-RUN apt install -y openjdk-8-jdk
-WORKDIR /usr/local/
-COPY ./Max-Doctor-PatientApp-0.0.1-SNAPSHOT.jar ./
-EXPOSE 8080
-CMD ["java", "-jar", "Max-Doctor-PatientApp-0.0.1-SNAPSHOT.jar"]
-
-
+RUN apt install -y nodejs
+RUN apt install -y npm
+RUN apt-get install -y git
+RUN git clone https://github.com/vamsisiddireddy/fargate.git
+WORKDIR ./fargate/Motivityhospital/ml-hospital-react
+RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
