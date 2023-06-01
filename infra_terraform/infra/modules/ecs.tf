@@ -1,9 +1,9 @@
 resource "aws_ecs_cluster" "ecs" {
-  name = "app_cluster"
+  name = var.cluster_name
 }
 
 resource "aws_ecs_service" "service1" {
-  name                   = "app_service1"
+  name                   = var.service1_name
   cluster                = aws_ecs_cluster.ecs.arn
   launch_type            = "FARGATE"
   enable_execute_command = true
@@ -20,7 +20,7 @@ resource "aws_ecs_service" "service1" {
 
   load_balancer {
     target_group_arn = data.aws_lb_target_group.example1.arn
-    container_name   = "App1"
+    container_name   = var.container1_name
     container_port   = 3000
   }
 }
@@ -28,7 +28,7 @@ resource "aws_ecs_service" "service1" {
 resource "aws_ecs_task_definition" "td1" {
   container_definitions = jsonencode([
     {
-      name      = "App1"
+      name      = var.container1_name
       image     = "satulakhil/frontend:React"
       cpu       = 2048
       memory    = 4096
@@ -41,7 +41,7 @@ resource "aws_ecs_task_definition" "td1" {
       ]
     }
   ])
-  family                   = "App1"
+  family                   = var.family1_name
   requires_compatibilities = ["FARGATE"]
   cpu                      = "2048"
   memory                   = "4096"
@@ -51,7 +51,7 @@ resource "aws_ecs_task_definition" "td1" {
 }
 
 resource "aws_ecs_service" "service2" {
-  name                   = "app_service2"
+  name                   = var.service2_name
   cluster                = aws_ecs_cluster.ecs.arn
   launch_type            = "FARGATE"
   enable_execute_command = true
@@ -68,7 +68,7 @@ resource "aws_ecs_service" "service2" {
 
   load_balancer {
     target_group_arn = data.aws_lb_target_group.example2.arn
-    container_name   = "App2"
+    container_name   = var.container2_name
     container_port   = 8080
   }
 }
@@ -76,7 +76,7 @@ resource "aws_ecs_service" "service2" {
 resource "aws_ecs_task_definition" "td2" {
   container_definitions = jsonencode([
     {
-      name      = "App2"
+      name      = var.container2_name
       image     = "satulakhil/backend:java"
       cpu       = 2048
       memory    = 4096
@@ -89,7 +89,7 @@ resource "aws_ecs_task_definition" "td2" {
       ]
     }
   ])
-  family                   = "App2"
+  family                   = var.family2_name
   requires_compatibilities = ["FARGATE"]
   cpu                      = "2048"
   memory                   = "4096"
