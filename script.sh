@@ -1,5 +1,5 @@
 #!/bin/bash
-####
+#####
 # Check if git command is available
 #if ! command -v git &> /dev/null; then
 #    echo "Git is not installed."
